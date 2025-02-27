@@ -1,0 +1,184 @@
+body {
+    background-color: #f2f3f5;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b0b31;
+}
+
+.topBar a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+.rightText ul{
+    list-style: none;
+}
+
+.rightText li {
+    display: inline;
+
+}
+
+.logoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 39%;
+}
+
+nav button {
+    background-color: #0b0b31;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px 3%;
+    margin: 0 10px;
+}
+
+.logo {
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+}
+
+/* MAIN STYLING */
+
+.heroImage img {
+    width: 90%;
+}
+
+.caroselButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background-color: #a9a9a9;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.selection:hover {
+    background-color: #d98f28;
+}
+
+.blogRow {
+    display: flex;
+}
+
+.smartItem {
+    border-top: 2px solid #a9a9a9;
+}
+
+.strongItem {
+    border-top: 2px solid #a9a9a9;
+    border-left: 2px solid #a9a9a9;;
+    border-right: 2px solid #a9a9a9;;
+}
+
+.stableItem {
+    border-top: 2px solid #a9a9a9;
+}
+
+.blogTitle {
+    color: #0e1e31;
+    font-size: xxx-large;
+}
+
+.blogImg {
+    width: 60%;
+}
+
+.blogParagraph {
+    color: #a9a9a9;
+}
+
+.blogButton {
+    background-color: #0b0b31;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px 2%;
+    /* margin: 0 10px; */
+}
+
+.newsSection {
+    display: flex;
+    background: rgb(28,45,63);
+    background: linear-gradient(171deg, rgba(28,45,63,1) 20%, rgba(15,24,33,1) 77%);
+}
+
+.newsSection h2 {
+    color: #ffffff;
+    font-size: xx-large;
+} 
+
+.servicesItem ul {
+    list-style-image: url('https://mvalenciaiii.github.io/detroix/media/gear.jpg');
+}
+
+.servicesItem li {
+    color: #a9a9a9;
+}
+
+.oppItem ul{
+    list-style-image: url('https://mvalenciaiii.github.io/detroix/media/bubble.jpg');
+}
+
+.oppItem h3 {
+    color: #ffffff;
+}
+
+.oppItem p {
+    color: #a9a9a9;
+}
+
+.eventItem {
+    display: flex;
+    align-items: center;
+}
+
+.eventItem h4 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.eventItem p {
+    margin: 0;
+    color: #a9a9a9;
+}
+
+.firstCal {
+    padding: 18px;
+    background-color: #be8542;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 15%;
+}
+
+.secondCal {
+    padding: 18px;
+    background-color: #bc6142;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 15%;
+}
+
+.thirdCal {
+    padding: 18px;
+    background-color: #bd425e;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 15%;
+}
